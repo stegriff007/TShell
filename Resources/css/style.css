@@ -196,7 +196,7 @@ footer img {
 
 }
 
-@media only screen and (max-width: 570px) {
+@media only screen and (max-width: 470px) {
 
 	.container {
 		width: 100%;
@@ -278,7 +278,6 @@ footer img {
 		justify-content: center;
 		padding-left: 0rem;
 	}
-
 
 	header span {
 		display: none;
