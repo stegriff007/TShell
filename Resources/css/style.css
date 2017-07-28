@@ -78,7 +78,6 @@ header nav #special {
 	line-height: 1.2;
 	height: 5rem;
 	padding: 1.5rem 5rem;
-	border-right: solid white 2rem;
 	align-items: center;
 	overflow: visible;
 }
@@ -128,6 +127,7 @@ footer img {
 	width: 5rem;
 	align-items: center;
 	text-align: center;
+	line-height: 1rem;
 }
 
 
@@ -156,11 +156,11 @@ footer img {
 	font-size: 1rem;
 	height: 2rem;
 	padding-left: 1.25rem;
-
 }
 
 .text p {
 	margin-top: 1rem;
+	line-height: 1.5rem;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -190,9 +190,17 @@ footer img {
 		margin-top: 18rem;
 	}
 
+	header span {
+		display: none;
+	}
+
 }
 
 @media only screen and (max-width: 570px) {
+
+	.container {
+		width: 100%;
+	}
 
 	header nav span {
 		display: none;
@@ -213,6 +221,8 @@ footer img {
 		line-height: 1.2;
 		height: 2rem;
 		width: 100%;
+		display: flex;
+		justify-content: center;
 	}
 
 	.content {
@@ -243,25 +253,35 @@ footer img {
 	.text {
 		width: 100%;
 		margin-bottom: 4rem;
+		padding-left: 0rem;
+		margin-left: 0rem;
 	}
 
 	.text h1 {
 		width: 100%;
-		padding: 0px;
 		justify-content: center;
 		margin: 0;
+		padding-left: 0rem;
 	}
 
 	.text p {
 		margin-top: 1rem;
+		padding: 5%;
 	}
 
 	footer span {
 		display: none;
+		justify-content: center;
 	}
 
 	footer {
 		justify-content: center;
+		padding-left: 0rem;
+	}
+
+
+	header span {
+		display: none;
 	}
 
 }
